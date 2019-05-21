@@ -2,6 +2,8 @@
 #
 # git prepare-commit-msg hook for automatically adding an issue key
 # from the start of the current branch name to commit message bodies.
+#
+# Based on https://bitbucket.org/snippets/atlassian/qedp7d
 
 # check if commit is merge commit or a commit ammend
 if [[ $2 = "merge" ]] || [[ $2 = "commit" ]]; then
