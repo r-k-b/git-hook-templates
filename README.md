@@ -12,8 +12,8 @@ Now anytime you checkout a repo OR use git init in a directory, the
 `prepare-commit-msg` hook will be copied into your project’s 
 `.git/hooks` folder.
 
-ⓘ Tip: You can safely run `git init` within pre-existing git projects 
-  to get the template hooks copied over.
+ⓘ Tip: You can safely run `git init` at the root of pre-existing git
+  projects to get the template hooks copied over.
 
 
 # [`prepare-commit-msg`](https://github.com/r-k-b/git-hook-templates/blob/master/hooks/prepare-commit-msg)
